@@ -1,0 +1,50 @@
+.bg-contacto {
+  background: #0c4da1;
+  height: 150px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.bg-contacto-b {
+  background: #0c4da1;
+  padding: 30px 0px 10px 20px;
+}
+.bg-contacto h2 {
+  font-family: "Proxima Extrabold";
+  color: white;
+  font-size: 35px;
+}
+.grid-info-contact {
+  color: white;
+}
+.info-contact {
+  display: grid;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+.info-contact div span {
+  font-family: "Effra Regular";
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1024px) {
+  .info-contact {
+    margin-bottom: initial;
+  }
+  .grid-info-contact {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 9em;
+  }
+  .bg-contacto-b {
+    height: 130px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: initial;
+  }
+  .bg-contacto h2 {
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,60 @@
+.footer-ga {
+  background: #efefef;
+}
+.grid-footer-info {
+  display: grid;
+  align-content: center;
+  text-align: center;
+  padding-top: 20px;
+}
+.seccion-info h2 {
+  color: #0c4da1;
+  font-size: 20px;
+  font-family: "Effra Regular";
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.seccion-info p {
+  color: #0c4da1;
+  font-size: 18px;
+  font-family: "Effra Light";
+  margin-bottom: 25px !important;
+}
+.social-media {
+  margin-bottom: 24px;
+}
+.social-media a span {
+  color: #0c4da1;
+  font-family: "Effra Light";
+  font-size: 18px;
+}
+
+.grid-date {
+  background: #0c4da1;
+}
+.date {
+  display: grid;
+  justify-content: center;
+}
+.date p {
+  font-family: "Effra Light";
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1200px) {
+  .grid-footer-info {
+    grid-template-columns: repeat(3, 1fr);
+    height: 280px;
+    text-align: initial;
+    padding-top: initial;
+  }
+  .seccion-info h2 {
+    font-size: 24px;
+    margin-bottom: 48px;
+  }
+}

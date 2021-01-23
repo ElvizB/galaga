@@ -1,0 +1,21 @@
+.oculto {
+  overflow: hidden;
+}
+
+#mdb-preloader.loaded {
+  opacity: 0;
+  transition: 0.3s ease-in 1s;
+  display: none;
+}
+#mdb-preloader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  z-index: 9999;
+  height: 100%;
+  width: 100%;
+}
+

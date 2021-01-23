@@ -1,0 +1,93 @@
+.wrap-ns {
+  display: grid;
+  align-content: center;
+  height: 100%;
+}
+.info-servicios {
+  padding: 30px 15px 0;
+}
+.info-servicios h2 {
+  background: #0c4da1;
+  color: white;
+  font-family: "Proxima Extrabold";
+  font-size: 25px;
+  padding: 5px 15px 2px 15px;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.info-servicios p {
+  font-family: "Effra Regular";
+  font-size: 18px;
+  margin-bottom: 1em !important;
+  text-align: justify;
+}
+.title-serv h2 {
+  background: #1fd83f;
+  color: white;
+  font-family: "Proxima Extrabold";
+  font-size: 20px;
+  padding: 1px 15px 1px 15px;
+  text-align: center;
+}
+
+.descriptions-servicios p {
+  font-family: "Effra Regular";
+  font-size: 17px;
+  color: #0c4da1;
+  margin-bottom: 0.5em !important;
+  text-align: justify;
+}
+.content-info-serv {
+  margin-top: 2.5em;
+  padding: 0px 15px 0;
+}
+.p-servicio {
+  margin-bottom: 2em;
+}
+.photo-servicio {
+  padding: 15px 0;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .wrap-ns {
+    grid-template-columns: 45% 55%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrap-ns {
+    grid-template-columns: 61% 39%;
+  }
+  .info-servicios h2 {
+    font-size: 45px;
+    display: table;
+    text-align: initial;
+  }
+  .info-servicios {
+    padding: initial;
+  }
+  .info-servicios p {
+    text-align: initial;
+  }
+  .grid-subservicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .content-info-serv {
+    padding: initial;
+  }
+  .descriptions-servicios p {
+    font-size: 18px;
+    text-align: initial;
+  }
+  .photo-servicio {
+    padding: initial;
+    text-align: initial;
+  }
+  .title-serv h2 {
+    display: table;
+    text-align: initial;
+    font-size: 35px;
+  }
+}

@@ -1,0 +1,194 @@
+:root {
+  --bgfooter: #0c4da1;
+  --text-white: white;
+  font-size: 16px;
+}
+/************************/
+.u-grid-content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 5px;
+  height: 100%;
+}
+.u-grid-contacto {
+  max-width: 1450px;
+  margin: auto;
+  padding: 0 5px;
+  height: 100%;
+}
+.wp-banner {
+  display: grid;
+  align-items: center;
+}
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+b {
+  font-family: "Effra Regular";
+  font-weight: bold !important;
+}
+/************************/
+@font-face {
+  font-family: "Effra Light";
+  src: url("../fonts/effra-light.otf");
+}
+
+@font-face {
+  font-family: "Effra Regular";
+  src: url("../fonts/effra-regular.otf");
+}
+
+@font-face {
+  font-family: "Proxima Regular";
+  src: url("../fonts/proxima-regular.otf");
+}
+
+@font-face {
+  font-family: "Proxima Extrabold";
+  src: url("../fonts/proxima-extrabold.otf");
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--bgfooter);
+  border-radius: 10px;
+}
+
+.bg-home {
+  position: relative;
+}
+
+.bg-home img {
+  width: 100%;
+  object-fit: cover;
+}
+.center-info-home {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.title-banner {
+  margin-top: 0px;
+}
+.title-banner h1 {
+  color: white;
+  font-size: 28px;
+  font-family: "Proxima Extrabold";
+  background: #0c4da1;
+  display: table;
+  margin: 0;
+  padding: 0px 15px;
+}
+
+.title-s {
+  text-align: center;
+  margin-top: 40px;
+}
+.title-s h2 {
+  color: #a5a5a5;
+  font-size: 50px;
+  font-family: "Proxima Extrabold";
+}
+.grid-service {
+  position: relative;
+  display: grid;
+  margin: 50px 0px 80px 0px;
+}
+.transparent-back {
+  position: absolute;
+  top: 0;
+  width: 380px;
+  height: 100%;
+}
+.back-content {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  /* background: rgb(255 12 0 / 70%); */
+}
+.back-content span {
+  color: white;
+  font-family: "Proxima Regular";
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 36px;
+}
+
+.back-content2 {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  /* background: rgb(31 216 63 / 51%); */
+}
+.back-content2 span {
+  color: white;
+  font-family: "Proxima Regular";
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 36px;
+}
+.back-content3 {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  /* background: rgb(12 77 161 / 74%); */
+}
+.back-content3 span {
+  color: white;
+  font-family: "Proxima Regular";
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 36px;
+}
+
+.item-service {
+  text-align: center;
+}
+.item-service img {
+  height: 380px;
+  margin-bottom: 1em;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.item-service:hover img {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+@media screen and (min-width: 768px) {
+  .title-banner h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .grid-service {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .title-banner h1 {
+    font-size: 50px;
+  }
+  .item-service img {
+    margin-bottom: initial;
+  }
+  .title-banner {
+    margin-top: 60px;
+  }
+  .wp-banner {
+    display: inherit;
+    align-items: initial;
+  }
+}

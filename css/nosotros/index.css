@@ -1,0 +1,96 @@
+.nosotros {
+  padding: 30px 15px 30px;
+  background: #efefef;
+}
+.title-nosotros h2 {
+  text-align: center;
+  color: #a5a5a5;
+  font-size: 30px;
+  font-family: "Proxima Extrabold";
+}
+.nosotros-content p {
+  text-align: justify;
+  font-family: "Effra Regular";
+  color: black;
+}
+.img-n {
+  text-align: center;
+}
+.img-n img {
+  padding: 20px 0px;
+}
+.content-mv h2 {
+  color: #0c4da1;
+  font-size: 36px;
+  font-family: "Proxima Extrabold";
+  text-align: center;
+}
+.content-mv p {
+  text-align: justify;
+  font-family: "Effra Regular";
+  color: black;
+}
+.title-valores h2 {
+  color: white;
+  font-family: "Proxima Extrabold";
+  font-size: 26px;
+}
+.title-valores p {
+  color: white;
+  font-size: 15px;
+  font-family: "Effra Regular";
+}
+.grid-valores {
+  padding: 24px 15px 0 15px;
+}
+.grid-info-valores {
+  color: white;
+  display: grid;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+}
+.list-valores li {
+  font-family: "Effra Regular";
+  font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .grid-info-valores {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .grid-n {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5em;
+    margin-bottom: 20px;
+  }
+  .content-mv h2 {
+    text-align: initial;
+  }
+  .img-n img {
+    padding: initial;
+  }
+  .title-nosotros h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  .nosotros {
+    padding: 60px 15px 30px;
+  }
+  .title-valores h2 {
+    font-size: 36px;
+  }
+  .title-valores p {
+    font-size: 18px;
+  }
+
+  .grid-valores {
+    padding: 50px 0 0 0;
+  }
+  .list-valores li {
+    font-size: 18px;
+  }
+}
