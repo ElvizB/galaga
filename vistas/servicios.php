@@ -65,7 +65,7 @@ include_once 'plantillas/nav/index.php';
 
             <div class="content-info-serv wow fadeIn" data-wow-delay="0.4s">
                 <div class="title-serv">
-                    <h2>INTERMEDIACIÓN</h2>
+                    <h2>TRANSPORTE DE CARGA</h2>
                 </div>
                 <div class="grid-subservicios">
                     <div class="photo-servicio">

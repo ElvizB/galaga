@@ -7,7 +7,7 @@
 
 //rutas de la web
 //https://galagaa.herokuapp.com/
-//http://localhost/barrigafong/
+//http://localhost/galagaa/
 
 define("SERVIDOR", "https://galagaa.herokuapp.com/");
 define("RUTA_NOSOTROS", SERVIDOR."nosotros");
